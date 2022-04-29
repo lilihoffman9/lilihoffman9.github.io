@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #gameArea{
+            background-color: OliveDrab;
+            border: 4px solid rgb(7, 12, 5)
+        }
+
+        body{
+            height: 100vh;
+            background: linear-gradient(0deg,rgb(148, 131, 86) 0%,  rgb(156, 112, 47) 100%);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .button{
+            transition-duration: 0.4s;
+            margin-left: 1150px;
+            padding: 10px 10px;
+            border-radius: 14px;
+
+            background-color: rgba(255, 255, 255, 0);
+            color: black;
+            border: 2px solid #040504;
+            font-size: 17px;
+            box-shadow: 0 9px rgb(68, 67, 67);
+        }
+
+        .button:hover {background-color: rgb(114, 102, 66)}
+
+        .button:active {
+            background-color: #1f3520;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "font-family:monospace; font-size: 35px; ">Level 1</h1>
+    <canvas id = "gameArea" width = "800" height = "600"></canvas>
+    <button onclick = "newAnimal()" class="button"> Click here to choose a different animal!</button>
+
+    <script>
+        function newAnimal() {
+            window.open("/Users/lilihoffman/Desktop/Game/firstPage.html", "_self")
+        }
+    </script>
+    <script src = "Animal.js"></script>
+    <script src = "Car.js"></script>
+    <script src = "Road.js"></script>
+    <script src = "indexPig.js"></script>
+</body>
+</html>

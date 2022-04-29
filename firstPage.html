@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            background: linear-gradient(0deg,rgb(148, 131, 86) 0%,  rgb(156, 112, 47) 100%);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .button{
+            transition-duration: 0.4s;
+            margin-right: 70px;
+            margin-left: 70px;
+            padding: 10px 40px;
+            border-radius: 12px;
+
+            background-color: rgba(255, 255, 255, 0);
+            color: black;
+            border: 2px solid #040504;
+            font-size: 20px;
+            box-shadow: 0 9px rgb(68, 67, 67);
+        }
+
+        .button:hover {background-color: rgb(114, 102, 66)}
+
+        .button:active {
+            background-color: #1f3520;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .img{
+            margin-left: 55px;
+            margin-right: 55px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style = "font-family:fantasy; font-size: 75px; ">Crossy Road</h1>
+    <br>
+    <h1 style = "font-family:monospace; font-size: 40px; ">Choose Your Animal!!</h1>
+    <br><br><br><br>
+    <img class= "img" src="chicken.png" width="160" height="150">
+    <img class= "img" src="cow.png" width="150" height="150">
+    <img class= "img" src="goat.png" width="150" height="150">
+    <img class= "img" src="pig2.png" width="170" height="150">
+    <img class= "img" src="sheep.png" width="150" height="150">
+
+    <br><br>
+    <button onclick = "chicken()" class="button">Chicken</button>
+    <button onclick = "cow()" class="button">Cow</button>
+    <button onclick = "goat()" class="button">Goat</button>
+    <button onclick = "pig()" class="button">Pig</button>
+    <button onclick = "sheep()" class="button">Sheep</button>
+
+    <script>
+        function chicken() {
+            window.open("/Users/lilihoffman/Desktop/Game/indexChicken.html", "_self")
+        }
+        function cow() {
+            window.open("/Users/lilihoffman/Desktop/Game/indexCow.html", "_self")
+        }
+        function goat() {
+            window.open("/Users/lilihoffman/Desktop/Game/indexGoat.html", "_self")
+        }
+        function pig() {
+            window.open("/Users/lilihoffman/Desktop/Game/indexPig.html", "_self")
+        }
+        function sheep() {
+            window.open("/Users/lilihoffman/Desktop/Game/indexSheep.html", "_self")
+        }
+
+    </script>
+    <script src = "Animal.js"></script>
+    <script src = "Car.js"></script>
+    <script src = "Road.js"></script>
+    <script src = "index.js"></script>
+</body>
+</html>
