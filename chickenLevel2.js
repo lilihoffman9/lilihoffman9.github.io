@@ -95,7 +95,7 @@ function drawGame(){
     animal.drawChicken();
     
     if(animal.getYPosition() <= 55){
-        window.open("/Users/lilihoffman/Desktop/Game/winChicken2.html", "_self")
+        window.open("winChicken2.html", "_self")
     }
 
 
@@ -228,7 +228,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadChicken2.html", "_self");
+    window.open("deadChicken2.html", "_self");
 }
 
 function clearScreen(){
