@@ -95,7 +95,7 @@ function drawGame(){
     animal.drawPig();
     
     if(animal.getYPosition() <= 55){
-        window.open("/Users/lilihoffman/Desktop/Game/winPig2.html", "_self")
+        window.open("winPig2.html", "_self")
     }
 
 
@@ -229,7 +229,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadPig2.html", "_self");
+    window.open("deadPig2.html", "_self");
 }
 
 function clearScreen(){
