@@ -16,7 +16,7 @@ function drawGame(){
 
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
-        window.open("/Users/lilihoffman/Desktop/Game/pigLevel2.html", "_self")
+        window.open("pigLevel2.html", "_self")
     }
 }
 
