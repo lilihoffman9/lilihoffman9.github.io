@@ -73,7 +73,7 @@ function drawGame(){
     animal.drawPig();
 
     if(animal.getYPosition() <= 100){
-        window.open("/Users/lilihoffman/Desktop/Game/winPig.html", "_self")
+        window.open("winPig.html", "_self")
     }
 
     //row 1
@@ -169,7 +169,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadPig.html", "_self");
+    window.open("deadPig.html", "_self");
 }
 
 function clearScreen(){
