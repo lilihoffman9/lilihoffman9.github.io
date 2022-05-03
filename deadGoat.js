@@ -16,7 +16,7 @@ function drawGame(){
 
 document.body.onkeyup = function(e){
     if(e.keyCode == 32){
-        window.open("/Users/lilihoffman/Desktop/Game/indexGoat.html", "_self")
+        window.open("indexGoat.html", "_self")
     }
 }
 
