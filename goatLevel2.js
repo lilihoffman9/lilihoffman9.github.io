@@ -95,7 +95,7 @@ function drawGame(){
     animal.drawGoat();
     
     if(animal.getYPosition() <= 55){
-        window.open("/Users/lilihoffman/Desktop/Game/winGoat2.html", "_self")
+        window.open("winGoat2.html", "_self")
     }
 
 
@@ -229,7 +229,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadGoat2.html", "_self");
+    window.open("deadGoat2.html", "_self");
 }
 
 function clearScreen(){
