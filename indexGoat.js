@@ -71,7 +71,7 @@ function drawGame(){
     animal.drawGoat();
     
     if(animal.getYPosition() <= 100){
-        window.open("/Users/lilihoffman/Desktop/Game/winGoat.html", "_self")
+        window.open("winGoat.html", "_self")
     }
 
      //row 1
@@ -169,7 +169,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadGoat.html", "_self");
+    window.open("deadGoat.html", "_self");
 }
 
 function clearScreen(){
