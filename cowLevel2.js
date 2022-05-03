@@ -95,7 +95,7 @@ function drawGame(){
     animal.drawCow();
     
     if(animal.getYPosition() <= 55){
-        window.open("/Users/lilihoffman/Desktop/Game/winCow2.html", "_self")
+        window.open("winCow2.html", "_self")
     }
 
 
@@ -229,7 +229,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadCow2.html", "_self");
+    window.open("deadCow2.html", "_self");
 }
 
 function clearScreen(){
