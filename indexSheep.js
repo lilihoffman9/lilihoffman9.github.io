@@ -71,7 +71,7 @@ function drawGame(){
     animal.drawSheep();
     
     if(animal.getYPosition() <= 100){
-        window.open("/Users/lilihoffman/Desktop/Game/winSheep.html", "_self")
+        window.open("winSheep.html", "_self")
     }
 
     //row 1
@@ -168,7 +168,7 @@ function drawGame(){
 }
 
 function myFunction(){
-    window.open("/Users/lilihoffman/Desktop/Game/deadSheep.html", "_self");
+    window.open("deadSheep.html", "_self");
 }
 
 function clearScreen(){
