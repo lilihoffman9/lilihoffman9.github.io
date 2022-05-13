@@ -7,6 +7,8 @@ class Car{
         this.speedX = 3;
     }
 
+//comment
+
     drawCarRight(){
       let imgR = new Image();
       imgR.src = "carFacingRight_1_70x30.png";
