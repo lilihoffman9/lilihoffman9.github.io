@@ -70,7 +70,7 @@ function drawGame(){
 
     animal.drawChicken();
     
-    if(animal.getYPosition() <= 100){
+    if(animal.getYPosition() <= 300){
         window.open("winChicken.html", "_self")
     }
 
