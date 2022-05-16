@@ -72,7 +72,7 @@ function drawGame(){
 
     animal.drawPig();
 
-    if(animal.getYPosition() <= 100){
+    if(animal.getYPosition() <= 110){
         window.open("winPig.html", "_self")
     }
 

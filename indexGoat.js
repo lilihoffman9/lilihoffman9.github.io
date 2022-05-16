@@ -70,7 +70,7 @@ function drawGame(){
 
     animal.drawGoat();
     
-    if(animal.getYPosition() <= 100){
+    if(animal.getYPosition() <= 110){
         window.open("winGoat.html", "_self")
     }
 

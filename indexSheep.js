@@ -70,7 +70,7 @@ function drawGame(){
 
     animal.drawSheep();
     
-    if(animal.getYPosition() <= 100){
+    if(animal.getYPosition() <= 110){
         window.open("winSheep.html", "_self")
     }
 
