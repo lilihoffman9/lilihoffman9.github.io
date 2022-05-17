@@ -67,6 +67,7 @@ function drawGame(){
     road3.drawRoad();
     road4.drawRoad();
     road5.drawRoad();
+    
 
     animal.drawChicken();
     
