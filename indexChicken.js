@@ -67,11 +67,11 @@ function drawGame(){
     road3.drawRoad();
     road4.drawRoad();
     road5.drawRoad();
-    
+
 
     animal.drawChicken();
     
-    if(animal.getYPosition() <= 125){
+    if(animal.getYPosition() <= 115){
         window.open("winChicken.html", "_self")
     }
 
