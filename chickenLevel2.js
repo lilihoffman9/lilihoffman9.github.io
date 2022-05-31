@@ -177,8 +177,11 @@ function drawGame(){
     //row2
     for(var i = 0; i < carsRow2.length; i++){
         if(animal.containsPoint(carsRow2[i].getXPosition(),carsRow2[i].getYPosition(), carsRow2[i].getLength(), carsRow2[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
@@ -186,8 +189,11 @@ function drawGame(){
     //row3
     for(var i = 0; i < carsRow3.length; i++){
         if(animal.containsPoint(carsRow3[i].getXPosition(),carsRow3[i].getYPosition(), carsRow3[i].getLength(), carsRow3[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
@@ -195,8 +201,11 @@ function drawGame(){
     //row4
     for(var i = 0; i < carsRow4.length; i++){
         if(animal.containsPoint(carsRow4[i].getXPosition(),carsRow4[i].getYPosition(), carsRow4[i].getLength(), carsRow4[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
@@ -204,8 +213,11 @@ function drawGame(){
     //row5
     for(var i = 0; i < carsRow2.length; i++){
         if(animal.containsPoint(carsRow5[i].getXPosition(),carsRow5[i].getYPosition(), carsRow5[i].getLength(), carsRow5[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
@@ -213,8 +225,11 @@ function drawGame(){
     //row 6
     for(var i = 0; i < carsRow6.length; i++){
         if(animal.containsPoint(carsRow6[i].getXPosition(),carsRow6[i].getYPosition(), carsRow6[i].getLength(), carsRow6[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
@@ -223,8 +238,11 @@ function drawGame(){
     //row 7
     for(var i = 0; i < carsRow7.length; i++){
         if(animal.containsPoint(carsRow7[i].getXPosition(),carsRow7[i].getYPosition(), carsRow7[i].getLength(), carsRow7[i].getWidth())){
+            /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadChicken2.html", "_self");
             break;
         }        
     }
