@@ -123,8 +123,11 @@ function drawGame(){
     //row1
     for(var i = 0; i < carsRow1.length; i++){
         if(animal.containsPoint(carsRow1[i].getXPosition(),carsRow1[i].getYPosition(), carsRow1[i].getLength(), carsRow1[i].getWidth())){
+            /*
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
+            */
+            window.open("deadSheep.html", "_self");
             break;
         }        
     }
