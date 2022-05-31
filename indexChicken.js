@@ -129,6 +129,7 @@ function drawGame(){
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
             */
+            window.open("deadChicken.html", "_self");
             break;
         }        
     }
@@ -140,6 +141,7 @@ function drawGame(){
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
             */
+            window.open("deadChicken.html", "_self");
             break;
         }        
     }
@@ -151,6 +153,7 @@ function drawGame(){
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
             */
+            window.open("deadChicken.html", "_self");
             break;
         }        
     }
@@ -162,6 +165,7 @@ function drawGame(){
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
             */
+            window.open("deadChicken.html", "_self");
             break;
         }        
     }
@@ -173,6 +177,7 @@ function drawGame(){
             animal.drawSplat();
             window.setTimeout(myFunction, 90);
             */
+            window.open("deadChicken.html", "_self");
             break;
         }        
     }
