@@ -160,8 +160,11 @@ function drawGame(){
     //row4
     for(var i = 0; i < carsRow4.length; i++){
         if(animal.containsPoint(carsRow4[i].getXPosition(),carsRow4[i].getYPosition(), carsRow4[i].getLength(), carsRow4[i].getWidth())){
+           /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadGoat.html", "_self");
             break;
         }        
     }
@@ -169,8 +172,11 @@ function drawGame(){
     //row5
     for(var i = 0; i < carsRow2.length; i++){
         if(animal.containsPoint(carsRow5[i].getXPosition(),carsRow5[i].getYPosition(), carsRow5[i].getLength(), carsRow5[i].getWidth())){
+           /*
             animal.drawSplat();
-            window.setTimeout(myFunction, 100);
+            window.setTimeout(myFunction, 90);
+            */
+            window.open("deadGoat.html", "_self");
             break;
         }        
     }
