@@ -38,7 +38,7 @@ for(var i = 0; i < 5; i++){
     counter4+=175
 }
 for(var i = 0; i < 7; i++){
-    let c1 = new Car(counter5,100,70, 30)
+    let c1 = new Car(counter5,110,70, 30)
     carsRow5.push(c1)
     counter5+=160
 }
