@@ -70,7 +70,7 @@ let road5 = new Road(0,200);
 let road6 = new Road(0,150);
 let road7 = new Road(0,50);
 
-let animal = new Animal(x+5,y,radius);
+let animal = new Animal(x,y,radius);
 let car1 = new Car(x,y,l,w);
 let speed = 47.9;
 
