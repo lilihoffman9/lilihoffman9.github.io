@@ -1,6 +1,6 @@
 const canvas = document.getElementById("gameArea")
 const ctx = canvas.getContext("2d")
-let x = 410;
+let x = 400;
 let y = 545;
 let l = 70;
 let w= 40;
